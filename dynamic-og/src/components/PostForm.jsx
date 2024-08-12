@@ -13,14 +13,14 @@ const PostForm = ({onFormSubmit}) => {
   }
   
       return (
-        <>
+        <div  >
         <form onSubmit={handleSubmit}>
             <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Title" />
             <textarea value={content} onChange={(e) => setContent(e.target.value)} placeholder="Content"></textarea>
             <input type="file" onChange={(e) => setImage(e.target.files[0])} />
             <button type="submit">Create Post</button>
         </form>
-        </>
+        </div>
       )
 }
  export default PostForm;
