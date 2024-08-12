@@ -23,7 +23,7 @@ Deliverables:
 3. Brief documentation explaining how the system works.
 
 Evaluation Criteria:
-    * Functionality of the post page and og:image generation.
-    * Visual quality of the generated og:images.
-    * Code quality and organzation.
-    * Performance of the image generation process.
+  * Functionality of the post page and og:image generation.
+  * Visual quality of the generated og:images.
+  * Code quality and organzation.
+  * Performance of the image generation process.
